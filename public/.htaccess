@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Check if the requested file or directory doesn't exist
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirect requests without file extension to their .php equivalent
+RewriteRule ^([a-zA-Z0-9_-]+)$ $1.php [NC,L]

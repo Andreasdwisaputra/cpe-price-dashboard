@@ -1,0 +1,38 @@
+[
+    {
+        "platform": "Amazon",
+        "name": "Dell",
+        "price_raw": "$524.98",
+        "price_num": 525,
+        "currency": "USD",
+        "location": "Online",
+        "rating": "",
+        "sold_raw": "Overall Pick\n\n\nDell\nInspiron Touchscreen Laptop, 15.6\" Business & Student Laptop Computer, Windows 11 Pro Laptop 32GB RAM 1TB SSD, Intel i5-1155G7 Processor, Full HD IPS Display, Numeric Keypad, HDMI, Carbon Black\nOptions:\n5 capacities\n665\n2K+ bought in past month\n$524\n98\nDelivery Thu, Sep 18\nShips to Indonesia\nOnly 13 left in stock - order soon.\nAdd to cart\nMore Buying Choices\n$424.49(13+ used & new offers)",
+        "sold_num": 2000,
+        "details_link": "https://www.amazon.com/dp/B0CTPCTW66"
+    },
+    {
+        "platform": "Amazon",
+        "name": "Dell",
+        "price_raw": "$440.00",
+        "price_num": 440,
+        "currency": "USD",
+        "location": "Online",
+        "rating": "",
+        "sold_raw": "Dell\nInspiron 15 3511 Laptop, 15.6\" FHD Touchscreen, Intel Core i5-1035G1, 12GB RAM, 256GB PCIe NVMe M.2 SSD, SD Card Reader, Webcam, HDMI, WiFi, Windows 11 Home, Black\nOptions:\n8 capacities\n1,223\n50+ bought in past month\n$440\n00\nDelivery Fri, Sep 19\nShips to Indonesia\nOnly 7 left in stock - order soon.\nAdd to cart\nMore Buying Choices\n$300.00(5+ used & new offers)",
+        "sold_num": 50,
+        "details_link": "https://www.amazon.com/dp/B0B338HW3T"
+    },
+    {
+        "platform": "Amazon",
+        "name": "2 in 1 Laptop Computer, 15.6 Inch Convertible Laptop, 16GB DDR4 RAM 512GB SSD Touchscreen Laptop, AMD Ryzen R3 3200U, AMD Radeon, FHD 1920x1080, 360° Rotating Touch Screen, WiFi 5, Backlit Keyboard",
+        "price_raw": "$389.99",
+        "price_num": 390,
+        "currency": "USD",
+        "location": "Online",
+        "rating": "",
+        "sold_raw": "Sponsored\n2 in 1 Laptop Computer, 15.6 Inch Convertible Laptop, 16GB DDR4 RAM 512GB SSD Touchscreen Laptop, AMD Ryzen R3 3200U, AMD Radeon, FHD 1920x1080, 360° Rotating Touch Screen, WiFi 5, Backlit Keyboard\n11\n50+ bought in past month\n$389\n99\n15% off promotion available\nDelivery Wed, Sep 17\nShips to Indonesia\nAdd to cart",
+        "sold_num": 50,
+        "details_link": "https://www.amazon.com/dp/B0FC2FWGF2"
+    }
+]

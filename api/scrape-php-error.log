@@ -1,0 +1,12 @@
+[02-Sep-2025 09:26:40 Europe/Berlin] PHP Notice:  fwrite(): Write of 13 bytes failed with errno=9 Bad file descriptor in C:\xampp\htdocs\kerja_praktek\api\scrape.php on line 96
+[02-Sep-2025 09:26:40 Europe/Berlin] PHP Notice:  fwrite(): Write of 3 bytes failed with errno=9 Bad file descriptor in C:\xampp\htdocs\kerja_praktek\api\scrape.php on line 96
+[02-Sep-2025 09:26:58 Europe/Berlin] PHP Notice:  fwrite(): Write of 13 bytes failed with errno=9 Bad file descriptor in C:\xampp\htdocs\kerja_praktek\api\scrape.php on line 96
+[02-Sep-2025 09:26:58 Europe/Berlin] PHP Notice:  fwrite(): Write of 3 bytes failed with errno=9 Bad file descriptor in C:\xampp\htdocs\kerja_praktek\api\scrape.php on line 96
+[02-Sep-2025 09:30:59 Europe/Berlin] PHP Notice:  fwrite(): Write of 13 bytes failed with errno=9 Bad file descriptor in C:\xampp\htdocs\kerja_praktek\api\scrape.php on line 100
+[02-Sep-2025 09:30:59 Europe/Berlin] PHP Notice:  fwrite(): Write of 3 bytes failed with errno=9 Bad file descriptor in C:\xampp\htdocs\kerja_praktek\api\scrape.php on line 100
+[02-Sep-2025 09:31:15 Europe/Berlin] PHP Notice:  fwrite(): Write of 13 bytes failed with errno=9 Bad file descriptor in C:\xampp\htdocs\kerja_praktek\api\scrape.php on line 100
+[02-Sep-2025 09:31:15 Europe/Berlin] PHP Notice:  fwrite(): Write of 3 bytes failed with errno=9 Bad file descriptor in C:\xampp\htdocs\kerja_praktek\api\scrape.php on line 100
+[02-Sep-2025 09:40:13 Europe/Berlin] PHP Notice:  fwrite(): Write of 13 bytes failed with errno=9 Bad file descriptor in C:\xampp\htdocs\kerja_praktek\api\scrape.php on line 100
+[02-Sep-2025 09:40:13 Europe/Berlin] PHP Notice:  fwrite(): Write of 3 bytes failed with errno=9 Bad file descriptor in C:\xampp\htdocs\kerja_praktek\api\scrape.php on line 100
+[03-Sep-2025 03:39:29 Europe/Berlin] PHP Notice:  fwrite(): Write of 8 bytes failed with errno=9 Bad file descriptor in C:\xampp\htdocs\kerja_praktek\api\scrape.php on line 100
+[03-Sep-2025 03:39:29 Europe/Berlin] PHP Notice:  fwrite(): Write of 3 bytes failed with errno=9 Bad file descriptor in C:\xampp\htdocs\kerja_praktek\api\scrape.php on line 100

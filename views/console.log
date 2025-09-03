@@ -1,0 +1,17 @@
+app.post('/scrape', async (req, res) => {
+    const { nama_item, referensi, margin_mitra } = req.body;
+    console.log(`Menerima request dengan: ${nama_item}, ${referensi}, ${margin_mitra}`);  // Debug data yang diterima
+
+    try {
+        const products = await scrapeProducts(nama_item, referensi, margin_mitra);
+        console.log(products);  // Debug data produk yang dihasilkan
+
+        if (products.length > 0) {
+            res.json(products);
+        } else {
+            res.json({ error: 'Tidak ditemukan produk yang cocok.' });
+        }
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+});
