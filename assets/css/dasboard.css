@@ -1,0 +1,213 @@
+/* Umum */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #F4F6F9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Wrapper */
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #E60012; /* Warna merah khas Telkom */
+  color: white;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+  position: fixed;
+  height: 100%;
+  left: -250px;
+}
+
+.sidebar.open {
+  transform: translateX(250px); /* Buka sidebar */
+}
+
+.sidebar .user-profile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sidebar .user-profile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sidebar .user-profile .username {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.sidebar .menu {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar .menu li {
+  margin: 20px 0;
+}
+
+.sidebar .menu li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar .menu li a:hover {
+  background-color: #C31F3C; /* Hover effect */
+}
+
+.sidebar .menu li a.active {
+  background-color: #B31530; /* Active item color */
+}
+
+/* Main Content */
+.main-content {
+  flex-grow: 1;
+  margin-left: 0;
+  padding: 20px;
+  background-color: #FFFFFF;
+  transition: margin-left 0.3s ease-in-out;
+}
+
+.main-content.open {
+  margin-left: 250px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-dropdown {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.user-dropdown .header-profile-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-dropdown .dropdown {
+  display: none;
+  background-color: #fff;
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.user-dropdown .dropdown.show {
+  display: block;
+}
+
+.user-dropdown .dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-dropdown .dropdown ul li {
+  margin: 10px 0;
+}
+
+.user-dropdown .dropdown ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+/* Tombol untuk membuka menu */
+.menu-toggle {
+  display: none;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: #E60012;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  z-index: 1000;
+}
+
+.menu-toggle.open {
+  left: 270px;
+}
+
+/* Responsif untuk tampilan mobile */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 200px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+
+  .main-content.open {
+    margin-left: 200px;
+  }
+
+  .sidebar.open {
+    transform: translateX(0);
+  }
+}
+/* Responsif untuk tampilan mobile */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 200px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+
+  .main-content.open {
+    margin-left: 200px;
+  }
+
+  .sidebar.open {
+    transform: translateX(0);
+  }
+}

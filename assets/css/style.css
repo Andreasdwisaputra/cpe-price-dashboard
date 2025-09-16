@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body, html {
+  height: 100%;
+  background-color: #fff;
+}
+
+.login-container {
+  display: flex;
+  height: 100vh;
+}
+
+.login-left {
+  flex: 1;
+  background-color: #1a1a1a;
+  color: white;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: radial-gradient(rgba(255,0,0,0.2), transparent 60%);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logo-telkom {
+  width: 120px;
+  margin-bottom: 30px;
+}
+
+.login-left h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.sirama {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.sub {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.powered {
+  font-size: 14px;
+  margin-top: auto;
+}
+
+.login-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-form h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.btn-login {
+  background-color: #e60000;
+  color: white;
+  padding: 12px;
+  border: none;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-login:hover {
+  background-color: #c70000;
+}
+
+.help-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+.help-text a {
+  color: #e60000;
+  text-decoration: underline;
+}
+.error-message {
+  color: #a00000;
+  background-color: #ffe5e5;
+  border-left: 4px solid #ff0000;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
